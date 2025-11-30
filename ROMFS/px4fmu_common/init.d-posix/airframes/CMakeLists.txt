@@ -92,6 +92,10 @@ px4_add_romfs_files(
 	4019_gz_x500_gimbal
 	4020_gz_tiltrotor
 	4021_gz_x500_flow
+	22000_gz_x500_double_cam_down
+	22001_gz_sprind
+
+	22002_gz_x500_lidar_stereo
 
 	6011_gazebo-classic_typhoon_h480
 	6011_gazebo-classic_typhoon_h480.post
@@ -109,11 +113,13 @@ px4_add_romfs_files(
 	10041_sihsim_airplane
 	10042_sihsim_xvert
 	10043_sihsim_standard_vtol
+	10044_sihsim_hex
 
 	17001_flightgear_tf-g1
 	17002_flightgear_tf-g2
 
-	71001_gazebo-classic_spacecraft_dart
+	50000_gz_rover_differential
+
 	71002_gz_spacecraft_2d
 
 	# [22000, 22999] Reserve for custom models
