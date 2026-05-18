@@ -1,6 +1,10 @@
 ############################################################################
 #
+<<<<<<<< HEAD:boards/zeroone/x6/CMakeLists.txt
+#   Copyright (c) 2025 PX4 Development Team. All rights reserved.
+========
 #   Copyright (c) 2016 PX4 Development Team. All rights reserved.
+>>>>>>>> origin/release/1.16/add-lidar-model:boards/holybro/kakuteh7-wing/src/CMakeLists.txt
 #
 # Redistribution and use in source and binary forms, with or without
 # modification, are permitted provided that the following conditions
@@ -48,6 +52,9 @@ if("${PX4_BOARD_LABEL}" STREQUAL  "bootloader")
 	)
 	target_include_directories(drivers_board PRIVATE ${PX4_SOURCE_DIR}/platforms/nuttx/src/bootloader/common)
 
+<<<<<<<< HEAD:boards/zeroone/x6/CMakeLists.txt
+add_subdirectory(pwm_voltage)
+========
 else()
 	add_library(drivers_board
 		can.c
@@ -72,3 +79,4 @@ else()
 			px4_layer
 	)
 endif()
+>>>>>>>> origin/release/1.16/add-lidar-model:boards/holybro/kakuteh7-wing/src/CMakeLists.txt

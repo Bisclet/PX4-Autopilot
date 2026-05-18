@@ -119,4 +119,8 @@ px4_add_romfs_files(
 	71002_gz_spacecraft_2d
 
 	# [22000, 22999] Reserve for custom models
+
+	22000_gz_x500_double_cam_down
+	22001_gz_sprind
+	22002_gz_x500_lidar_stereo
 )
